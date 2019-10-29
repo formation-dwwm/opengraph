@@ -20,7 +20,7 @@
                 text-align: center;
             }
             img{
-                width: 31%;
+                width: 25%;
                 margin: 2%;
                 box-shadow: 0 8px 10px 0px rgba(0, 0, 0, 0.2);
             }
@@ -29,14 +29,18 @@
                 flex-direction: row;
                 justify-content: center;
             }
+            .pate2{
+                display: flex;
+                flex-direction: row;
+            }
             .rounded{
                 border-radius: 50%;
             }
-            .open{
+            .dropdown{
                 position: relative;
             }
             .close{
-                /* position:absolute; */
+                top: 0;
                 display: none;
             }
         </style>
@@ -48,8 +52,12 @@
             <img src="https://i.pinimg.com/originals/f8/f4/72/f8f472325110a2d906ef7ce213b39850.jpg">
         </div>
         <h2>Le gras c'est la vie.</h2>
+        <div class="pate2">
             <img src="http://data.topquizz.com/distant/question/big/4/4/7/3/433744_330ce46e8c.jpg">
-            <a class="open" href="images/image0.png"><img src="images/image0.png"></a>
-            <a class="close" href="images/pascontent.png"><img src="images/pascontent.png"></a>
+            <div class="dropdown">
+                <a class="open" href="images/image0.png"><img src="images/image0.png"></a>
+                <a class="close" href="images/pascontent.png"><img src="images/pascontent.png"></a>
+            </div>
+        </div>
     </body>
 </html>

@@ -4,7 +4,7 @@ $(function(){
             'display': 'none'
         });
         $('.close').css({
-            'display': 'block'
+            'display': 'flex'
         });
     });
 });
